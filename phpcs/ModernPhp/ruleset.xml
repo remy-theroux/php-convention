@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<ruleset name="Iadvize">
+	<description>iAdvize coding standards</description>
+
+	<exclude-pattern>*/build/*</exclude-pattern>
+	<exclude-pattern>*/data/*</exclude-pattern>
+	<exclude-pattern>*/src/Vendors/*</exclude-pattern>
+	<exclude-pattern>*/migration/*</exclude-pattern>
+	<exclude-pattern>*/vendor/*</exclude-pattern>
+	<exclude-pattern>*/vendors/*</exclude-pattern>
+
+	<rule ref="PSR1" />
+	<rule ref="PSR2" />
+
+    <rule ref="Symfony">
+        <exclude name="Squiz.Strings.ConcatenationSpacing" />
+        <exclude name="Symfony.Functions.ScopeOrder" />
+        <exclude name="Symfony.Functions.Arguments" />
+        <exclude name="Generic.Functions.OpeningFunctionBraceBsdAllman" />
+        <exclude name="Symfony.Objects.ObjectInstantiation" />
+        <exclude name="Symfony.Commenting.License" />
+        <exclude name="Symfony.Commenting.ClassComment" />
+        <exclude name="Symfony.ControlStructure" />
+    </rule>
+
+    <rule ref="Squiz.Strings.DoubleQuoteUsage" />
+    <rule ref="Generic.Formatting.MultipleStatementAlignment" />
+
+	<rule ref="Generic.Files.LineLength">
+        <properties>
+            <property name="lineLimit" value="200"/>
+            <property name="absoluteLineLimit" value="200"/>
+        </properties>
+    </rule>
+</ruleset>
