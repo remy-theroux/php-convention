@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <ruleset name="ModernPhp">
 	<description>Coding standards for modern php applications</description>
-    <config name="installed_paths" value="./vendor/escapestudios/symfony2-coding-standard"/>
+    <config name="installed_paths" value="./vendor/escapestudios/symfony2-coding-standard,./vendor/remy-theroux/php-convention/phpcs"/>
 	<exclude-pattern>*/vendor/*</exclude-pattern>
 
 	<rule ref="PSR1" />
