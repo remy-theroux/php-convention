@@ -10,6 +10,7 @@
     }
   ],
   "require": {
-    "php": "^7.3"
+    "php": "^7.3",
+    "escapestudios/symfony2-coding-standard": "^3.9"
   }
 }

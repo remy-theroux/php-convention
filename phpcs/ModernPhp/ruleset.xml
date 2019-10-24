@@ -5,7 +5,6 @@
 
 	<rule ref="PSR1" />
 	<rule ref="PSR2" />
-	<rule ref="Symfony" />
 
     <rule ref="Symfony">
         <exclude name="Squiz.Strings.ConcatenationSpacing" />

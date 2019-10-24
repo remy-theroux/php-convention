@@ -4,9 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7fe02c95de8eabe629c9281f5c112f90",
-    "packages": [],
-    "packages-dev": [
+    "content-hash": "330af43cdbd22ee19076463db8174ebe",
+    "packages": [
         {
             "name": "escapestudios/symfony2-coding-standard",
             "version": "3.9.2",
@@ -112,6 +111,7 @@
             "time": "2019-10-16T21:14:26+00:00"
         }
     ],
+    "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": [],
