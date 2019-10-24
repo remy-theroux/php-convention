@@ -1,0 +1,15 @@
+{
+  "name": "remy-theroux/php-convention",
+  "license": "MIT",
+  "type": "library",
+  "description": "Set of php conventions for modern php applications",
+  "authors": [
+    {
+      "name": "Rémy Théroux",
+      "email": "remy.theroux@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.3"
+  }
+}
