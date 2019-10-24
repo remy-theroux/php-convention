@@ -1,7 +1,7 @@
 {
   "name": "remy-theroux/php-convention",
   "license": "MIT",
-  "type": "library",
+  "type": "phpcodesniffer-standard",
   "description": "Set of php conventions for modern php applications",
   "authors": [
     {
