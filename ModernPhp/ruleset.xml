@@ -17,4 +17,10 @@
 
     <rule ref="Squiz.Strings.DoubleQuoteUsage" />
     <rule ref="Generic.Formatting.MultipleStatementAlignment" />
+    <rule ref="Generic.Files.LineLength">
+        <properties>
+            <property name="lineLimit" value="120"/>
+            <property name="absoluteLineLimit" value="120"/>
+        </properties>
+    </rule>
 </ruleset>
