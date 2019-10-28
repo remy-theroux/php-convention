@@ -2,15 +2,18 @@
 
 ## Usage
 
+composer require remy-theroux/php-convention
+
 vendor/bin/phpcs --standard=ModernPhp your_path
 
 ### Troubleshooting
 
-Standard must be auto installed via a composer plugin in the package dealerdirect/phpcodesniffer-composer-installer 
+Standard is auto installed via a composer plugin in the package dealerdirect/phpcodesniffer-composer-installer 
 
 If you have this error `'PHP_CodeSniffer_Exception' with message 'Referenced sniff "ModernPhp" does not exist'`
 
-Add manually standard to your installed path: `./vendor/bin/phpcs --config-set installed_paths $PWD/vendor/remy-theroux/php-convention`
+Add manually ModernPhp standard to your installed path: `vendor/bin/phpcs --config-set installed_paths $PWD/vendor
+/remy-theroux/php-convention`
 
 ## <a name='TOC'>Table of Contents</a>
 
